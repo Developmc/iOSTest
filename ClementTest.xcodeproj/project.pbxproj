@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73511C0A22A4CA9700FEA7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73511C0922A4CA9700FEA7AF /* AppDelegate.swift */; };
+		73511C0C22A4CA9700FEA7AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73511C0B22A4CA9700FEA7AF /* ViewController.swift */; };
+		73511C0F22A4CA9700FEA7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73511C0D22A4CA9700FEA7AF /* Main.storyboard */; };
+		73511C1122A4CA9800FEA7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73511C1022A4CA9800FEA7AF /* Assets.xcassets */; };
+		73511C1422A4CA9800FEA7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73511C1222A4CA9800FEA7AF /* LaunchScreen.storyboard */; };
+		73511C1F22A4CA9800FEA7AF /* ClementTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73511C1E22A4CA9800FEA7AF /* ClementTestTests.swift */; };
+		73511C2A22A4CA9800FEA7AF /* ClementTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73511C2922A4CA9800FEA7AF /* ClementTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73511C1B22A4CA9800FEA7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73511BFE22A4CA9700FEA7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73511C0522A4CA9700FEA7AF;
+			remoteInfo = ClementTest;
+		};
+		73511C2622A4CA9800FEA7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73511BFE22A4CA9700FEA7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73511C0522A4CA9700FEA7AF;
+			remoteInfo = ClementTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73511C0622A4CA9700FEA7AF /* ClementTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClementTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73511C0922A4CA9700FEA7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73511C0B22A4CA9700FEA7AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73511C0E22A4CA9700FEA7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73511C1022A4CA9800FEA7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73511C1322A4CA9800FEA7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73511C1522A4CA9800FEA7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73511C1A22A4CA9800FEA7AF /* ClementTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClementTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73511C1E22A4CA9800FEA7AF /* ClementTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClementTestTests.swift; sourceTree = "<group>"; };
+		73511C2022A4CA9800FEA7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73511C2522A4CA9800FEA7AF /* ClementTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClementTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73511C2922A4CA9800FEA7AF /* ClementTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClementTestUITests.swift; sourceTree = "<group>"; };
+		73511C2B22A4CA9800FEA7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73511C0322A4CA9700FEA7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73511C1722A4CA9800FEA7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73511C2222A4CA9800FEA7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73511BFD22A4CA9700FEA7AF = {
+			isa = PBXGroup;
+			children = (
+				73511C0822A4CA9700FEA7AF /* ClementTest */,
+				73511C1D22A4CA9800FEA7AF /* ClementTestTests */,
+				73511C2822A4CA9800FEA7AF /* ClementTestUITests */,
+				73511C0722A4CA9700FEA7AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73511C0722A4CA9700FEA7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73511C0622A4CA9700FEA7AF /* ClementTest.app */,
+				73511C1A22A4CA9800FEA7AF /* ClementTestTests.xctest */,
+				73511C2522A4CA9800FEA7AF /* ClementTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73511C0822A4CA9700FEA7AF /* ClementTest */ = {
+			isa = PBXGroup;
+			children = (
+				73511C0922A4CA9700FEA7AF /* AppDelegate.swift */,
+				73511C0B22A4CA9700FEA7AF /* ViewController.swift */,
+				73511C0D22A4CA9700FEA7AF /* Main.storyboard */,
+				73511C1022A4CA9800FEA7AF /* Assets.xcassets */,
+				73511C1222A4CA9800FEA7AF /* LaunchScreen.storyboard */,
+				73511C1522A4CA9800FEA7AF /* Info.plist */,
+			);
+			path = ClementTest;
+			sourceTree = "<group>";
+		};
+		73511C1D22A4CA9800FEA7AF /* ClementTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				73511C1E22A4CA9800FEA7AF /* ClementTestTests.swift */,
+				73511C2022A4CA9800FEA7AF /* Info.plist */,
+			);
+			path = ClementTestTests;
+			sourceTree = "<group>";
+		};
+		73511C2822A4CA9800FEA7AF /* ClementTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73511C2922A4CA9800FEA7AF /* ClementTestUITests.swift */,
+				73511C2B22A4CA9800FEA7AF /* Info.plist */,
+			);
+			path = ClementTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73511C0522A4CA9700FEA7AF /* ClementTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73511C2E22A4CA9800FEA7AF /* Build configuration list for PBXNativeTarget "ClementTest" */;
+			buildPhases = (
+				73511C0222A4CA9700FEA7AF /* Sources */,
+				73511C0322A4CA9700FEA7AF /* Frameworks */,
+				73511C0422A4CA9700FEA7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClementTest;
+			productName = ClementTest;
+			productReference = 73511C0622A4CA9700FEA7AF /* ClementTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73511C1922A4CA9800FEA7AF /* ClementTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73511C3122A4CA9800FEA7AF /* Build configuration list for PBXNativeTarget "ClementTestTests" */;
+			buildPhases = (
+				73511C1622A4CA9800FEA7AF /* Sources */,
+				73511C1722A4CA9800FEA7AF /* Frameworks */,
+				73511C1822A4CA9800FEA7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73511C1C22A4CA9800FEA7AF /* PBXTargetDependency */,
+			);
+			name = ClementTestTests;
+			productName = ClementTestTests;
+			productReference = 73511C1A22A4CA9800FEA7AF /* ClementTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73511C2422A4CA9800FEA7AF /* ClementTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73511C3422A4CA9800FEA7AF /* Build configuration list for PBXNativeTarget "ClementTestUITests" */;
+			buildPhases = (
+				73511C2122A4CA9800FEA7AF /* Sources */,
+				73511C2222A4CA9800FEA7AF /* Frameworks */,
+				73511C2322A4CA9800FEA7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73511C2722A4CA9800FEA7AF /* PBXTargetDependency */,
+			);
+			name = ClementTestUITests;
+			productName = ClementTestUITests;
+			productReference = 73511C2522A4CA9800FEA7AF /* ClementTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73511BFE22A4CA9700FEA7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = aimee;
+				TargetAttributes = {
+					73511C0522A4CA9700FEA7AF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					73511C1922A4CA9800FEA7AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 73511C0522A4CA9700FEA7AF;
+					};
+					73511C2422A4CA9800FEA7AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 73511C0522A4CA9700FEA7AF;
+					};
+				};
+			};
+			buildConfigurationList = 73511C0122A4CA9700FEA7AF /* Build configuration list for PBXProject "ClementTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73511BFD22A4CA9700FEA7AF;
+			productRefGroup = 73511C0722A4CA9700FEA7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73511C0522A4CA9700FEA7AF /* ClementTest */,
+				73511C1922A4CA9800FEA7AF /* ClementTestTests */,
+				73511C2422A4CA9800FEA7AF /* ClementTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73511C0422A4CA9700FEA7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73511C1422A4CA9800FEA7AF /* LaunchScreen.storyboard in Resources */,
+				73511C1122A4CA9800FEA7AF /* Assets.xcassets in Resources */,
+				73511C0F22A4CA9700FEA7AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73511C1822A4CA9800FEA7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73511C2322A4CA9800FEA7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73511C0222A4CA9700FEA7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73511C0C22A4CA9700FEA7AF /* ViewController.swift in Sources */,
+				73511C0A22A4CA9700FEA7AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73511C1622A4CA9800FEA7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73511C1F22A4CA9800FEA7AF /* ClementTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73511C2122A4CA9800FEA7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73511C2A22A4CA9800FEA7AF /* ClementTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73511C1C22A4CA9800FEA7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73511C0522A4CA9700FEA7AF /* ClementTest */;
+			targetProxy = 73511C1B22A4CA9800FEA7AF /* PBXContainerItemProxy */;
+		};
+		73511C2722A4CA9800FEA7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73511C0522A4CA9700FEA7AF /* ClementTest */;
+			targetProxy = 73511C2622A4CA9800FEA7AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73511C0D22A4CA9700FEA7AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73511C0E22A4CA9700FEA7AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73511C1222A4CA9800FEA7AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73511C1322A4CA9800FEA7AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73511C2C22A4CA9800FEA7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73511C2D22A4CA9800FEA7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73511C2F22A4CA9800FEA7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClementTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clement.ClementTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73511C3022A4CA9800FEA7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClementTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clement.ClementTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73511C3222A4CA9800FEA7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClementTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clement.ClementTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClementTest.app/ClementTest";
+			};
+			name = Debug;
+		};
+		73511C3322A4CA9800FEA7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClementTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clement.ClementTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClementTest.app/ClementTest";
+			};
+			name = Release;
+		};
+		73511C3522A4CA9800FEA7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClementTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clement.ClementTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClementTest;
+			};
+			name = Debug;
+		};
+		73511C3622A4CA9800FEA7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClementTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clement.ClementTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClementTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73511C0122A4CA9700FEA7AF /* Build configuration list for PBXProject "ClementTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73511C2C22A4CA9800FEA7AF /* Debug */,
+				73511C2D22A4CA9800FEA7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73511C2E22A4CA9800FEA7AF /* Build configuration list for PBXNativeTarget "ClementTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73511C2F22A4CA9800FEA7AF /* Debug */,
+				73511C3022A4CA9800FEA7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73511C3122A4CA9800FEA7AF /* Build configuration list for PBXNativeTarget "ClementTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73511C3222A4CA9800FEA7AF /* Debug */,
+				73511C3322A4CA9800FEA7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73511C3422A4CA9800FEA7AF /* Build configuration list for PBXNativeTarget "ClementTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73511C3522A4CA9800FEA7AF /* Debug */,
+				73511C3622A4CA9800FEA7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73511BFE22A4CA9700FEA7AF /* Project object */;
+}
